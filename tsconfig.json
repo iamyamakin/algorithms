@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "lib": [
+      "es2022"
+    ],
+    "useDefineForClassFields": true,
+    "allowImportingTsExtensions": true,
+    "module": "es2022",
+    "moduleResolution": "node16",
+    // "paths": {}, /* Specify a set of entries that re-map imports to additional lookup locations. */
+    // "typeRoots": [], /* Specify multiple folders that act like './node_modules/@types'. */
+    // "types": [], /* Specify type package names to be included without being referenced in a source file. */
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "importHelpers": true,
+    "newLine": "lf",
+    "preserveConstEnums": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "skipLibCheck": true,
+    "experimentalDecorators": true
+  },
+  "files": [
+    "./.eslintrc.cjs",
+    "./jest.config.js",
+    "./jest.setup.js"
+  ],
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
